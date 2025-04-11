@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center_horizontal">
+
+        <EditText
+            android:id="@+id/inputValor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Valor a convertir"
+            android:inputType="numberDecimal"
+            android:layout_marginBottom="16dp"/>
+
+        <Spinner
+            android:id="@+id/spinnerConversion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/btnConvertir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Convertir" />
+
+        <TextView
+            android:id="@+id/resultadoFisica"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Resultado:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="24dp" />
+    </LinearLayout>
+</ScrollView>
+
